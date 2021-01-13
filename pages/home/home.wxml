@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<view class="top">Hello Word</view>
+<button size="mini">按钮</button>

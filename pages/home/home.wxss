@@ -1,0 +1,5 @@
+/**index.wxss**/
+.top{
+  font-size:30px;
+  color:red
+}
