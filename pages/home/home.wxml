@@ -1,3 +1,10 @@
 <!--index.wxml-->
 <view class="top">Hello Word</view>
 <button size="mini">按钮</button>
+
+<!-- 获取用户信息方式，这种方式需要用户点击按钮之后才授权，微信正向这方面靠 -->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取用户信息</button>
+
+<!-- 第三种获取用户信息的方式，仅作展示用 -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
