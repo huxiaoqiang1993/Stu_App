@@ -1,0 +1,17 @@
+<!--pages/text/text.wxml-->
+<!-- 1、text的基础用法 -->
+<text>hello word\n</text>
+<text>你好小强！\n</text>
+
+<!-- 2、selectable，文本是否可选，true为可选,false为不可选 -->
+<text  selectable="{{false}}">这个文本不可选\n</text>
+<text selectable="{{true}}">这个文本可选\n</text>
+<text selectable>这个文本可选\n</text>
+
+<!-- 3、space，空格大小 nbsp:一个英文字符空格、emsp：一个中文字符空格、ensp：半个中文字符空格 -->
+<text space="nbsp">hello word\n</text>
+<text space="ensp">hello word\n</text>
+<text space="emsp">hello word\n</text>
+
+<!-- 4、decode：特殊符号是否解码编译 -->
+<text decode>5 &gt; 3</text>
